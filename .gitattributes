@@ -1,0 +1,10 @@
+# Normalize line endings; keep platform-correct endings for the Maven wrapper
+* text=auto
+
+# The mvnw POSIX launcher must stay LF so ./mvnw works on Linux/macOS graders
+mvnw      text eol=lf
+*.sh      text eol=lf
+
+# Windows batch wrapper must stay CRLF
+mvnw.cmd  text eol=crlf
+*.cmd     text eol=crlf

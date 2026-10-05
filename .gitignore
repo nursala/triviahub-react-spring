@@ -1,0 +1,25 @@
+# Maven build output
+target/
+
+# IDE
+.idea/
+*.iml
+
+# Node / frontend
+node_modules/
+frontend/dist/
+
+# Serialized data store (regenerate with DataInit)
+*.ser
+
+# Claude Code assistant file (not part of the submission)
+CLAUDE.md
+
+
+.env
+.env.*
+!.env.example
+.idea/
+node_modules/
+target/
+*.ser
